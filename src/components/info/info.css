@@ -1,0 +1,63 @@
+#container-1{
+    
+    position: relative;
+    width: 782px;
+    
+}
+#containers{
+    position: absolute;
+    left: -500px;
+    
+}
+.fade-in{
+    left: 0 !important;
+    visibility: visible !important;
+    transition: 1.5s;
+    animation: fadeIn 0.1s;
+}
+.fade-out{
+    
+    z-index: -2 !important;
+    transition: 1.5s;
+    animation: fadeOut 1.5s;
+    
+    visibility: hidden !important;
+}
+
+@keyframes fadeIn {
+    0%{
+        opacity: 0;
+        z-index: -2;
+        
+    }
+    50%{
+        opacity: 0;
+        z-index: -1;
+        
+    }
+    70%{
+        opacity: 0;
+        
+    }
+    100%{
+        opacity: 1;
+        
+        
+    }
+}
+@keyframes fadeOut {
+    0%{
+        opacity: 1;
+        z-index: -2;
+    }
+    30%{
+        opacity: 1;
+    }
+    40%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 0;
+        
+    }
+}
