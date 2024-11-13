@@ -40,13 +40,13 @@ function Projects(){
                         <p id={`title-${index}`} className='title'>{item.title}</p>
                         <p id={`description-${index}`} className='description'>
                             {item.description}
-                            <div id='tags-all'>
+                            <span id='tags-all'>
                                 {item.tags.map((item, index)=>{
                                     return(
                                         <span key={index} id={`tags-${item.name}`}>{`#${item.name}`}</span>
                                     )
                                 })}
-                            </div>
+                            </span>
                         </p>
                     </Link>
                 )
