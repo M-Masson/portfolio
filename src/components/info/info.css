@@ -1,8 +1,6 @@
 #container-1{
-    
     position: relative;
     width: 782px;
-    
 }
 #containers{
     position: absolute;
@@ -12,15 +10,13 @@
 .fade-in{
     left: 0 !important;
     visibility: visible !important;
-    transition: 1.5s;
+    transition: 1s;
     animation: fadeIn 0.1s;
 }
 .fade-out{
-    
     z-index: -2 !important;
     transition: 1.5s;
     animation: fadeOut 1.5s;
-    
     visibility: hidden !important;
 }
 
