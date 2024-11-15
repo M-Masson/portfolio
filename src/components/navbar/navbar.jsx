@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom'
 
 import imageAbout1 from '../../assets/svg/about/user-regular.svg'
 import imageAbout2 from '../../assets/svg/about/user-solid.svg'
-import imageSkills1 from '../../assets/svg/skills/sliders-solid.svg'
+import imageSkills1 from '../../assets/svg/skills/chart-bar-solid.svg'
 import imageSkills2 from '../../assets/svg/skills/code-solid.svg'
 import imageProjetcts1 from '../../assets/svg/projects/laptop-solid.svg'
 import imageProjects2 from '../../assets/svg/projects/laptop-code-solid.svg'
@@ -26,7 +26,7 @@ function Nav() {
         {title: "projects", image1:imageProjetcts1 ,image2: imageProjects2},
         {title: "contacts", image1: imageContacts1, image2: imageContacts2}
     ]
-    
+
     return (
         <div id="navbar">
             {nav.map((item, index) => {

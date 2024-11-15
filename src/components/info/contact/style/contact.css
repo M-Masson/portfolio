@@ -1,5 +1,5 @@
 #contact{
-    background: rgba(232, 232, 232, 0.05) ;
+    background: transparent ;
     border-radius: 5px;
     border-top-left-radius: 0;
     border-bottom-left-radius: 0;
@@ -11,6 +11,7 @@
     padding: 50px 35px 40px 35px;
     box-shadow: 1px 1px 20px 0px rgba(10, 191, 173, 1);
     color: #E8E8E8;
+    backdrop-filter: blur(16px);
 
 }
 #contact-infos{
@@ -25,10 +26,12 @@
 #contact-app{
     display: flex;
     align-self: center;
-    gap: 10px;
+    justify-content: space-between;
+    width: 30%;
+    gap: 50%;
 }
 #contact-app a{
-    width: 100%;
+    width: 50%;
 }
 #contact-me{
     background: rgba(24, 37, 36, 0.5);

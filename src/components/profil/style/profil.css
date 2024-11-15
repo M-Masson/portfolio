@@ -21,4 +21,31 @@
 #profil2{
     width: 100%;
     height: 143px; 
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+}
+#identite{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height:50%;
+}
+#identite p{
+    margin: 0;
+}
+#name{
+    font-size: 25px;
+}
+#btn-profil{
+    display:flex;
+    height: 50%;
+}
+#btn-profil div{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
 }

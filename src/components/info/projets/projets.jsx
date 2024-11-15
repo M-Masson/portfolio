@@ -1,5 +1,6 @@
 import '../projets/style/projet.css'
 import { Link } from 'react-router-dom'
+import { useLocation } from 'react-router-dom'
 
 const tagsP1 = [
     {name: "Html"},
@@ -28,7 +29,8 @@ const project = [
 ]
 
 function Projects(){
-    
+    const location = useLocation();
+    const isActive = location.pathname === '/projects'
     return(
         <div id='projet-div'>
             <h2 id='projet-h2'>Projets</h2>
@@ -36,8 +38,8 @@ function Projects(){
             {project.map((item, index)=>{
                 return(
                     <Link id= {`projet-${index}`} className='projets' to={item.path} target='_blank' key={index}>
-                        <div id={`image-${index}`} className='projets-img'></div>
-                        <p id={`title-${index}`} className='title'>{item.title}</p>
+                        <div id={`image-${index}`} className={`projet-img-${isActive ? 'on' : 'off'}`}></div>
+                        <p id={`title-${index}`} className={`title-${isActive ? 'on' : 'off'}`}>{item.title}</p>
                         <p id={`description-${index}`} className='description'>
                             {item.description}
                             <span id='tags-all'>
