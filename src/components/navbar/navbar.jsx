@@ -13,16 +13,20 @@ import imageContacts2 from '../../assets/svg/contact/address-card-solid.svg'
 
 
 
-const nav = [
-    {title: "abouts", image1: imageAbout1, image2: imageAbout2},
-    {title: "skills", image1: imageSkills1, image2: imageSkills2},
-    {title: "projects", image1:imageProjetcts1 ,image2: imageProjects2},
-    {title: "contacts", image1: imageContacts1, image2: imageContacts2}
-]
+
+
 
 function Nav() {
-    const location = useLocation() 
+    const location = useLocation()
+    const isPathAbout = location.pathname === '/abouts'
 
+    const nav = [
+        {title: isPathAbout ? "abouts" : "", image1: imageAbout1, image2: imageAbout2},
+        {title: "skills", image1: imageSkills1, image2: imageSkills2},
+        {title: "projects", image1:imageProjetcts1 ,image2: imageProjects2},
+        {title: "contacts", image1: imageContacts1, image2: imageContacts2}
+    ]
+    
     return (
         <div id="navbar">
             {nav.map((item, index) => {
