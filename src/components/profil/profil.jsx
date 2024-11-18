@@ -12,9 +12,9 @@ function Profil(){
                     <div id='btn-cv'>
                         CV
                     </div>
-                    <div id='btn-contact'>
+                    <a id='btn-contact' href='/contacts'>
                         Contact
-                    </div>
+                    </a>
                 </div>
             </div>
         </div>

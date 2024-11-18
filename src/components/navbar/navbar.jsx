@@ -4,7 +4,7 @@ import { Link, useLocation } from 'react-router-dom'
 
 import imageAbout1 from '../../assets/svg/about/user-regular.svg'
 import imageAbout2 from '../../assets/svg/about/user-solid.svg'
-import imageSkills1 from '../../assets/svg/skills/chart-bar-solid.svg'
+import imageSkills1 from '../../assets/svg/skills/code-on.svg'
 import imageSkills2 from '../../assets/svg/skills/code-solid.svg'
 import imageProjetcts1 from '../../assets/svg/projects/laptop-solid.svg'
 import imageProjects2 from '../../assets/svg/projects/laptop-code-solid.svg'

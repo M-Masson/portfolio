@@ -6,7 +6,6 @@
     border-radius: 5px;
     width: 476px;
     padding: 37px 15px 29px 15px;
-    box-shadow: -16px -15px 0px 0px rgba(10, 191, 173, 0.1);
     gap: 36px;
     z-index: 3;
 }
@@ -48,4 +47,13 @@
     justify-content: center;
     align-items: center;
     border: 1px solid black;
+}
+#btn-profil a{
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid black;
+    text-decoration: none;
+    color: black;
 }
