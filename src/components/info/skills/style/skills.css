@@ -1,5 +1,4 @@
 #skill{
-    background: transparent ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,15 +10,15 @@
     width: 710px;
     margin: 20px 0;
     padding: 50px 35px 40px 35px;
-    box-shadow: 1px 1px 20px 0px #0ABFAD;
     color: #E8E8E8;
-    backdrop-filter: blur(16px);
-    
+    font-family: 'NeueMachina';
+    background: rgba(255, 255, 255, 0.05);
+    box-shadow: 0px -14px 60px -30px rgba(255, 255, 255, 0.25) inset;
+    backdrop-filter: blur(77px);
 }
 #skill div{
-    background: rgba(24, 37, 36, 0.2);
-    border-radius: 20px;
-    border: 1px solid rgba(1, 38, 31, 1);
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.10);
 
 }
 #skill1{
@@ -73,7 +72,6 @@
     margin:0 0 5px;
 }
 .hard-skills-sidebar{
-    background: #3E3E3E !important;
     width: 255px;
     height: 27px;
 }
@@ -98,13 +96,18 @@
     flex-direction: column;
     align-items: center;
     width: 20%;
+    justify-content: end;
 }
 .soft-skills p{
     margin: 0;
 }
 .soft-skills-img{
-    background: #3E3E3E !important;
     width: 55px;
     height: 55px;
+}
+#img-1{
+    position: relative;
+    scale: 1.5;
+    top: 10px;
 }
 

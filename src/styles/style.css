@@ -1,13 +1,38 @@
 body{
-    background-color: rgba(33, 38, 38, 1);
+    background-image: radial-gradient(at 75.27895509149111% 0.5773753774876322%, hsl(174 90% 25% / 1) 0%, hsla(0, 0%, 0%, 0.829) 100%), radial-gradient(at 0.4266225666643475% 5.528394965410266%, hsl(170 71% 1% / 1) 0%, hsl(169deg 95% 8% / 0%) 100%), radial-gradient(at 60.35301079835846% 72.06783371715413%, hsl(176 24% 1% / 1) 0%, hsl(175deg 21% 12% / 0%) 100%), radial-gradient(at 71.16418604161032% 35.180579200451476%, hsl(174 90% 3% / 1) 0%, hsl(174deg 90% 39% / 0%) 100%), radial-gradient(at 1.0276985875749656% 61.865989624052006%, hsl(170 71% 1% / 1) 0%, hsl(169deg 95% 8% / 0%) 100%), radial-gradient(at 41.53087982965209% 97.80080695687462%, hsl(0deg 0% 1% / 60%) 0%, hsl(176deg 24% 12% / 0%) 100%), radial-gradient(at 74.30428428307421% 31.600892365070642%, hsl(174 90% 20% / 1) 0%, hsl(174deg 90% 39% / 0%) 100%), radial-gradient(at 50.65795065014744% 36.70784789682568%, hsl(170deg 71% 1% / 69%) 0%, hsl(169deg 95% 8% / 0%) 100%), radial-gradient(at 70.38634555438999% 69.59425649429124%, hsl(0deg 0% 1% / 70%) 0%, hsl(176deg 24% 12% / 0%) 100%);    
+    background-blend-mode: color-dodge;
     display: flex;
-    margin-top:10%;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    height: 100vh;
+    margin:0;
 
 }
 #home{
     display: flex;
 }
 
+@media (min-width: 1024px) and (max-width: 1380px){
+    /* #projects-all a {
+        width: 250px;
+        height: 247px;
+    }
+    #container-1{
+        width: 95% !important;
+    } */
+}
+
+@media (max-width: 1024px) {
+    #home{
+        flex-direction: column;
+    }
+    #profil{
+        width: 752px !important;
+        height: 990px !important;
+        justify-content: space-between;
+
+    }
+    #profil1{
+        height: 850px !important;
+    }
+}

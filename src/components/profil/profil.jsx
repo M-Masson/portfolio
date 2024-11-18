@@ -6,7 +6,7 @@ function Profil(){
             <div id="profil2">
                 <div id='identite'>
                     <p id='name'>Morgan MASSON</p>
-                    <p id='domaine'>Développeur Web</p>
+                    <p id='domaine'>{"<developpeur_web/>"}</p>
                 </div>
                 <div id='btn-profil'>
                     <div id='btn-cv'>

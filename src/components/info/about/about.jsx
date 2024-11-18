@@ -7,7 +7,6 @@ function About(){
                 <div>Bio</div>
                 <div>Domaine</div>
             </div>
-            <div id='about2'>???</div>
         </div>
     )
 }
