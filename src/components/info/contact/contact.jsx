@@ -1,11 +1,10 @@
 import '../contact/style/contact.css'
-// import imageLinkedIn from '../../../assets/svg/contact/'
 import imageGithub from '../../../assets/svg/contact/github-brands-solid.svg'
 import imageLinkedIn from '../../../assets/svg//contact/linkedin-brands-solid.svg'
 
 function Contact (){
     return(
-        <div id="contact">
+        <div id="contact" className='side-div'>
             <h2>Contact</h2>
             <div id='contact-app'>
                 <a href="https://www.linkedin.com/in/morgan-masson/" target='_blank' id='linkedin'><img src= {imageLinkedIn} alt="logo LinkedIn" /></a>

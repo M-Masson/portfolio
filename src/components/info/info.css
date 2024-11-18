@@ -2,22 +2,23 @@
     position: relative;
     width: 782px;
 }
-#containers{
-    position: absolute;
-    left: -500px;
-    
-}
+
 .fade-in{
     left: 0 !important;
     visibility: visible !important;
     transition: 1s;
     animation: fadeIn 0.1s;
+    width: 100%;
 }
 .fade-out{
     z-index: -2 !important;
     transition: 1.5s;
     animation: fadeOut 1.5s;
     visibility: hidden !important;
+}
+#containers{
+    position: absolute;
+    
 }
 
 @keyframes fadeIn {
@@ -58,5 +59,11 @@
     100%{
         opacity: 0;
         
+    }
+}
+@media (min-width: 1025px){
+    #containers{
+        position: absolute;
+        left: -500px;
     }
 }

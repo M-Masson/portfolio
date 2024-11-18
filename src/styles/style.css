@@ -12,17 +12,87 @@ body{
     display: flex;
 }
 
-@media (min-width: 1024px) and (max-width: 1380px){
-    /* #projects-all a {
-        width: 250px;
-        height: 247px;
+.side-div{
+    width: 710px;
+}
+
+@media (max-width: 1345px){
+    .side-div{
+        width: 400px !important;
     }
     #container-1{
-        width: 95% !important;
-    } */
+        width: 470px !important;
+    }
+    
+    .hard-skills-sidebar{
+        width: calc(255px / 1.7) !important;
+    }
+    .soft-skills-img{
+        width: calc(55px / 1.5) !important;
+        height: calc(55px / 1.5) !important;
+    }
+    .soft-skills p{
+        font-size: 12px !important;
+        width: 59px !important;
+        text-align: center;
+    }
+    #icons{
+        gap: 10px !important;
+        align-self:start !important;
+    }
+    #skill2{
+        padding: 0 5px;
+    }
+    #about1{
+        flex-direction: column;
+    }
+    #about1 div{
+        height: 260px !important;
+        width: 100% !important;
+    }
+    #contact-infos{
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 1024px) {
+    #profil{
+        width: 300px !important;
+        height: 670px !important;
+    }
+    #profil1{
+        height: 291px !important;
+    }
+    #profil2{
+        height: 60% !important;
+        justify-content: space-between !important;
+    }
+    #identite{
+        margin-top: 50px;
+    }
+    #btn-profil{
+        gap: 10px;
+
+    }
+    #btn-profil div a{
+        width: calc(201px / 1.7) !important;
+        height: calc(55px / 1.7) !important;
+    }
+    #containers{
+        left: -300px ;
+    }
+    #photo-profil{
+        scale: 1.5 !important;
+        left: 20px !important;
+        top: 20px ;
+        
+    }
+    #profil1{
+        overflow: hidden !important ;
+    }
+    
+}
+@media (max-width: 720px) {
     #home{
         flex-direction: column;
     }

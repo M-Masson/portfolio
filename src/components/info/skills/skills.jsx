@@ -13,7 +13,7 @@ import logoPostman from '../../../assets/svg/skills/logo/postman.svg'
 import logoVsCode from '../../../assets/svg/skills/logo/vscode.svg'
 
 const softSkills = [
-    {title: "VisualStudio", img: logoVsCode},
+    {title: "VS Code", img: logoVsCode},
     {title: "MongoDB", img: logoMongodb},
     {title: "Github", img: logoGithub},
     {title: "Figma", img: logoFigma},
@@ -32,7 +32,7 @@ const hardSkills =[
 
 function Skills(){
     return(
-        <div id='skill'>
+        <div id='skill' className='side-div'>
             <div id='skill1'>
                 <h2>Hard Skills</h2>
                 <div id="sidebars">

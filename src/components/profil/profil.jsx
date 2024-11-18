@@ -1,8 +1,11 @@
 import './style/profil.css'
+import photoProfil from '../../assets/img/photo-profil.jpg'
 function Profil(){
     return(
         <div id="profil">
-            <div id="profil1"></div>
+            <div id="profil1">
+                <img id= "photo-profil" src={photoProfil} alt="photo de profil" />
+            </div>
             <div id="profil2">
                 <div id='identite'>
                     <p id='name'>Morgan MASSON</p>
