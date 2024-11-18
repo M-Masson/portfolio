@@ -7,42 +7,46 @@
     font-family: 'NeueMachina';
     gap: 28px;
     margin: 20px 0;
-    padding: 50px 35px 40px 35px;
+    padding: 62px 35px 62px 35px;
     color: #E8E8E8;
     background: rgba(255, 255, 255, 0.05);
     box-shadow: 0px -14px 60px -30px rgba(255, 255, 255, 0.25) inset;
     backdrop-filter: blur(77px);
 
 }
-#contact-infos{
+#contact-page{
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 10px;
+    border: 2px solid rgba(255, 255, 255, 0.10);
+    padding: 0px 20px 20px 20px;
 }
-#contact-infos div{
-    display: flex; 
-    gap: 10px;
+#contact-page h2{
+    margin: 20px;
 }
-
 #contact-app{
     display: flex;
-    align-self: center;
-    justify-content: space-between;
-    width: 30%;
-    gap: 50%;
-}
-#contact-app a{
-    width: 50%;
-}
-#contact-me{
-    background: rgba(24, 37, 36, 0.5);
-    display:flex;
     justify-content: center;
     align-items: center;
-    align-self:center;
-    width: 50%;
-    height: 60px;
-    border-radius: 30px;
-    box-shadow: 1px 1px 20px 0px rgba(10, 191, 173, 0.5); 
-    text-decoration: none;
-    color: #0ABFAD;
+    gap: 20px;
+}
+#contact-join{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.contact-elements{
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    width: 189px;
+    height: 189px;
+    border-radius: 20px;
+    background: rgba(255, 255, 255, 0.10);
+}
+.contact-elements img{
+    width: 52px;
+    height: 52px;
 }
