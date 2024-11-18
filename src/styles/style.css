@@ -17,6 +17,34 @@ body{
 }
 
 @media (max-width: 1345px){
+
+    #projet-div{
+        width: 470px !important;
+    }
+    #projects-all{
+        gap: 10px !important;
+    }
+    .projets{
+        width: calc(342px / 1.6) !important;
+        height: calc(339px / 1.6) !important;
+        padding-top: 10px !important
+    }
+    .projets:hover .projet-img-on{
+        transform: translateY(-30px) !important;
+    }
+    .projets:hover .description{
+        transform: translateY(40px) !important;
+        text-align: center ;
+        font-size: 14px;
+        padding: 0 5px !important;
+    }
+    .description{
+        top: 60px !important;
+    }
+    .projet-img-on{
+        width: calc(291px / 1.5) !important;
+        height: calc(231px / 1.5) !important;
+    }
     .side-div{
         width: 400px !important;
     }
@@ -53,6 +81,8 @@ body{
     #contact-infos{
         flex-direction: column;
     }
+
+
 }
 
 @media (max-width: 1024px) {
