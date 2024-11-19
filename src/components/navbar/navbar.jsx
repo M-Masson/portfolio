@@ -21,10 +21,10 @@ function Nav() {
     const isPathAbout = location.pathname === '/abouts'
 
     const nav = [
-        {title: isPathAbout ? "abouts" : "", image1: imageAbout1, image2: imageAbout2},
-        {title: "skills", image1: imageSkills1, image2: imageSkills2},
-        {title: "projects", image1:imageProjetcts1 ,image2: imageProjects2},
-        {title: "contacts", image1: imageContacts1, image2: imageContacts2}
+        {title: isPathAbout ? "abouts" : "", image1: imageAbout1, image2: imageAbout2, text: "À propos"},
+        {title: "skills", image1: imageSkills1, image2: imageSkills2, text: "Compétences"},
+        {title: "projects", image1:imageProjetcts1 ,image2: imageProjects2, text: "Projets"},
+        {title: "contacts", image1: imageContacts1, image2: imageContacts2, text: "Contact"}
     ]
 
     return (
@@ -40,6 +40,7 @@ function Nav() {
                     >
                         <div id={`nav-${item.title}`} className={`nav-${isActive ? 'on' : 'off'}`}>
                         <img src={isActive ? item.image2 : item.image1} alt={`image-${item.title}`}/>
+                        <p id={`text-nav-${item.title}`} className={`nav-text nav-text-${isActive ? 'on' : 'off'}`}>{item.text}</p>
                         </div>
                     </Link>
                 )

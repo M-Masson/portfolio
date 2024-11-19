@@ -27,3 +27,39 @@
 #navbar a div{
     width: 50%;
 }
+
+.nav-text{
+    text-wrap: nowrap;
+    visibility: hidden;
+    margin: 0;
+    height: 20px;
+    position: relative;
+    left: -20px;
+    z-index: -3;
+    text-align: center;
+    align-self: center;
+    background:#0ABFAD;
+    padding: 7px 10px 0px;
+    border-radius: 5px;;
+    color: white;
+    font-family: 'NeueMachina';
+}
+#text-nav-{
+    padding: 10px 10px 0px !important;
+}
+#text-nav-abouts{
+    padding: 10px 10px 0px !important;
+}
+
+#navbar div{
+    display: flex;
+}
+#navbar div:hover .nav-text{
+    visibility: visible;
+    left: 10px;
+    transition: 0.5s;
+
+}
+
+
+    
