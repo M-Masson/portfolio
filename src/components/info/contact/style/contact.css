@@ -46,7 +46,36 @@
     border-radius: 20px;
     background: rgba(255, 255, 255, 0.10);
 }
+.contact-elements:hover{
+    background:rgba(255, 255, 255, 0.3)
+}
+.contact-elements:hover p{
+    visibility: visible !important;
+    transition: 0.5s;
+    top: 25px !important;
+}
+.contact-elements:hover .phone-img-on{
+    top: 0px !important;
+    transition: 0.5s;
+}
 .contact-elements img{
     width: 52px;
     height: 52px;
+}
+.contact-elements {
+    color: white;
+    text-decoration: none ; 
+    flex-direction: column;
+}
+
+.phone-img-on{
+    transition: 0.5s;
+    position: relative;
+    top: 24px;
+}
+
+.contact-elements p{
+    position: relative;
+    top: 10px;
+    visibility: hidden;
 }

@@ -76,7 +76,7 @@
     font-family: 'NeueMachina';
     
 }
-#btn-profil div{
+#btn-profil #btn-cv{
     width: 201px;
     height: 55px;
     background: #90D0C9;
@@ -84,9 +84,11 @@
     justify-content: center;
     align-items: center;
     border-radius: 80px;
+    text-decoration: none;
+    color: white;
     
 }
-#btn-profil a{
+#btn-profil #btn-contact{
     width: 201px;
     height: 55px;
     background: #0ABFAD;

@@ -1,5 +1,7 @@
 import './style/profil.css'
 import photoProfil from '../../assets/img/photo-profil.jpg'
+import cv from '../../assets/cv/cv-morgan_masson.pdf'
+import { Link } from 'react-router-dom'
 function Profil(){
     return(
         <div id="profil">
@@ -12,12 +14,12 @@ function Profil(){
                     <p id='domaine'>{"<developpeur_web/>"}</p>
                 </div>
                 <div id='btn-profil'>
-                    <div id='btn-cv'>
+                    <a id='btn-cv' href= {cv} download="cv-morgan-masson">
                         CV
-                    </div>
-                    <a id='btn-contact' href='/contacts'>
-                        Contact
                     </a>
+                    <Link id='btn-contact' to='/contacts'>
+                        Contact
+                    </Link>
                 </div>
             </div>
         </div>
