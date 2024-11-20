@@ -45,8 +45,14 @@ body{
         width: calc(291px / 1.5) !important;
         height: calc(231px / 1.5) !important;
     }
+    .projet-img-off{
+        width: calc(291px / 1.5) !important;
+        height: calc(231px / 1.5) !important;
+    }
     .side-div{
         width: 400px !important;
+        padding-top: 40px !important;
+        padding-bottom: 35px !important;
     }
     #container-1{
         width: 470px !important;
@@ -68,6 +74,9 @@ body{
         gap: 10px !important;
         align-self:start !important;
     }
+    #skill{
+        gap: 56px !important;
+    }
     #skill2{
         padding: 0 5px;
     }
@@ -75,14 +84,30 @@ body{
         flex-direction: column;
     }
     #about1 div{
-        height: 260px !important;
-        width: 100% !important;
+        height: auto !important;
+        width: auto !important;
     }
     #contact-infos{
         flex-direction: column;
     }
-
-
+    #about1 div h3{
+        margin: 0;
+    }
+    #about1 div p{
+        font-size: 14px !important;
+        margin-bottom: 0 !important;
+    }
+    #about-all h2{
+        margin-bottom: 10px; 
+    }
+    #contact-page{
+        padding-bottom: 46px !important;
+        gap: 31px !important;
+    }
+    #contact-page h2{
+        margin-top: 30px !important;
+        margin-bottom: 10px !important; 
+    }
 }
 
 @media (max-width: 1024px) {

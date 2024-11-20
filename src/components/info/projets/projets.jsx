@@ -1,6 +1,11 @@
 import '../projets/style/projet.css'
 import { Link } from 'react-router-dom'
 import { useLocation } from 'react-router-dom'
+import imgP1 from '../../../assets/img/projets/projet-booki.png'
+import imgP2 from '../../../assets/img/projets/projet-photographe.png'
+import imgP3 from '../../../assets/img/projets/projet-kasa.png'
+import imgP4 from '../../../assets/img/projets/projet-vieux-grimoire.png'
+
 
 const tagsP1 = [
     {name: "Html"},
@@ -22,10 +27,10 @@ const tagsP4 = [
 ]
 
 const project = [
-    {title: "Projet 1", description: "description du projet numéro un", tags: tagsP1, img:"", path:"https://github.com/M-Masson/projet-booki"},
-    {title: "Projet 2", description: "description du projet numéro deux", tags: tagsP2, img:"", path:"https://github.com/M-Masson/projet-architecte"},
-    {title: "Projet 3", description: "description du projet numéro trois", tags: tagsP3, img:"", path:"https://github.com/M-Masson/projet-kasa"},
-    {title: "Projet 4", description: "description du projet numéro quatre", tags: tagsP4, img:"", path:"https://github.com/M-Masson/projet-vieux-grimoire"}
+    {title: "Projet 1", description: "description du projet numéro un", tags: tagsP1, img: imgP1, path:"https://github.com/M-Masson/projet-booki"},
+    {title: "Projet 2", description: "description du projet numéro deux", tags: tagsP2, img: imgP2, path:"https://github.com/M-Masson/projet-architecte"},
+    {title: "Projet 3", description: "description du projet numéro trois", tags: tagsP3, img: imgP3, path:"https://github.com/M-Masson/projet-kasa"},
+    {title: "Projet 4", description: "description du projet numéro quatre", tags: tagsP4, img: imgP4, path:"https://github.com/M-Masson/projet-vieux-grimoire"}
 ]
 
 function Projects(){
@@ -38,7 +43,9 @@ function Projects(){
             {project.map((item, index)=>{
                 return(
                     <Link id= {`projet-${index}`} className='projets' to={item.path} target='_blank' key={index}>
-                        <div id={`image-${index}`} className={`projet-img-${isActive ? 'on' : 'off'}`}></div>
+                        <div id={`image-${index}`} className={`projet-img-${isActive ? 'on' : 'off'}`}>
+                            <img src={item.img} alt="aperçu du projet" />
+                        </div>
                         <p id={`title-${index}`} className={`title-${isActive ? 'on' : 'off'}`}>{item.title}</p>
                         <p id={`description-${index}`} className='description'>
                             {item.description}
