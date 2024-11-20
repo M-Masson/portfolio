@@ -26,7 +26,7 @@ const hardSkills =[
     {title: "Css", rating: sideBar1},
     {title: "JavaScript", rating: sideBar2},
     {title: "React", rating:sideBar3},
-    {title: "Sass", rating:sideBar1},
+    {title: "Sass", rating:sideBar2},
     {title: "NodeJs", rating:sideBar4}
 ]
 
