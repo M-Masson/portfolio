@@ -78,7 +78,7 @@
     border-radius: 30px;
     padding: 10px;
 }
-.projets:hover .description{
+.projets:hover .description-on{
     visibility: visible;
     transition: 0.5s;
     transform: translateY(50px);
@@ -120,17 +120,33 @@
     height: 231px;
     overflow: hidden;
 }
-.description{
+.description-on{
     position: absolute;
     visibility: hidden;
     display: flex;
     flex-direction: column;
-    gap: 10px;
+    gap: 5px;
     color: #E8E8E8;
     max-width: 300px;
-    font-size: 14px;
+    font-size: 12px;
+    line-height: 15px;
     text-align: center;
     top: 120px;
+    font-family: 'RobotoMono';
+}
+.description-off{
+    position: absolute;
+    visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    color: #E8E8E8;
+    max-width: 300px;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    top: 120px;
+    font-family: 'RobotoMono';
 }
 
 #tags-all{
@@ -157,7 +173,7 @@
 }
 
 @media (min-width: 1440px){
-    .description{
+    .description-on{
         top: 120px;
     }
     

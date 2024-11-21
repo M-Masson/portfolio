@@ -47,7 +47,7 @@ function Projects(){
                             <img src={item.img} alt="aperçu du projet" />
                         </div>
                         <p id={`title-${index}`} className={`title-${isActive ? 'on' : 'off'}`}>{item.title}</p>
-                        <p id={`description-${index}`} className='description'>
+                        <p id={`description-${index}`} className={`description-${isActive ? 'on' : 'off'}`}>
                             {item.description}
                             <span id='tags-all'>
                                 {item.tags.map((item, index)=>{

@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'RobotoMono';
+    src: url(../assets/font/RobotoMono-VariableFont_wght.ttf);
+}
+
 body{
     background-image: radial-gradient(at 75.27895509149111% 0.5773753774876322%, hsl(174 90% 25% / 1) 0%, hsla(0, 0%, 0%, 0.829) 100%), radial-gradient(at 0.4266225666643475% 5.528394965410266%, hsl(170 71% 1% / 1) 0%, hsl(169deg 95% 8% / 0%) 100%), radial-gradient(at 60.35301079835846% 72.06783371715413%, hsl(176 24% 1% / 1) 0%, hsl(175deg 21% 12% / 0%) 100%), radial-gradient(at 71.16418604161032% 35.180579200451476%, hsl(174 90% 3% / 1) 0%, hsl(174deg 90% 39% / 0%) 100%), radial-gradient(at 1.0276985875749656% 61.865989624052006%, hsl(170 71% 1% / 1) 0%, hsl(169deg 95% 8% / 0%) 100%), radial-gradient(at 41.53087982965209% 97.80080695687462%, hsl(0deg 0% 1% / 60%) 0%, hsl(176deg 24% 12% / 0%) 100%), radial-gradient(at 74.30428428307421% 31.600892365070642%, hsl(174 90% 20% / 1) 0%, hsl(174deg 90% 39% / 0%) 100%), radial-gradient(at 50.65795065014744% 36.70784789682568%, hsl(170deg 71% 1% / 69%) 0%, hsl(169deg 95% 8% / 0%) 100%), radial-gradient(at 70.38634555438999% 69.59425649429124%, hsl(0deg 0% 1% / 70%) 0%, hsl(176deg 24% 12% / 0%) 100%);    
     background-blend-mode: color-dodge;
@@ -35,7 +40,7 @@ body{
     .projets:hover .description{
         transform: translateY(135px) !important;
         text-align: center ;
-        font-size: 14px;
+        font-size: 12px;
         padding: 0 5px !important;
     }
     .title-on{
@@ -77,12 +82,16 @@ body{
     #skill2{
         padding: 0 5px;
     }
+    #about{
+        padding: 35px !important;
+    }
     #about1{
         flex-direction: column;
     }
     #about1 div{
         height: auto !important;
         width: auto !important;
+        padding: 16px !important;
     }
     #contact-infos{
         flex-direction: column;
@@ -91,8 +100,9 @@ body{
         margin: 0;
     }
     #about1 div p{
-        font-size: 14px !important;
+        font-size: 12px !important;
         margin-bottom: 0 !important;
+        line-height: 15px;
     }
     #about-all h2{
         margin-bottom: 10px; 
@@ -143,12 +153,20 @@ body{
         overflow: hidden !important ;
     }
     
+    #containers{
+        position: absolute;
+        left: -300px;
+    }
+    .fade-in{
+        left: 0 !important;
+    }
 }
 @media (max-width: 850px) {
     body{
-        height: 160vh !important;
+        height: 170vh !important;
         align-items: start !important;
         padding-top: 20px !important;
+        justify-content: center !important;
     }
     #home{
         flex-direction: column;
@@ -166,10 +184,11 @@ body{
         position: fixed;
         bottom: 10px;
         width: 90% !important;
-        height: 70px !important; 
+        height: 80px !important; 
         background-color: rgba(32, 64, 61, 0.7) !important;
         backdrop-filter: blur(16px) !important;
         align-self: center;
+        justify-content: space-around !important;
     }
     .navigation-on{
         width: auto !important;
@@ -181,9 +200,69 @@ body{
     }
     .nav-on img{
         width: calc(28px * 1.5) !important;
+        
     }
     .nav-off img{
         width: calc(28px * 1.5) !important;
     }
+    .nav-text{
+        left: 0px !important;
+        top: 10px !important;
+
+    }
+    .nav-on p{
+        width: 0 !important;
+        height: 0 !important;
+        padding: 0 !important;
+        visibility: hidden !important;
+    }
+    .nav-off p{
+        width: 0 !important;
+        height: 0 !important;
+        padding: 0 !important;
+        visibility: hidden !important;
+    }
+    #navbar div{
+        width: 100% !important;
+    }
     
+    .description-on{
+        visibility: visible !important;
+        top: 170px !important;
+    }
+    
+    
+    .title-on{
+        position: relative;
+        top: 30px !important;
+    }
+    .projet-img-on{
+        position: relative !important;
+        scale: 0.7 !important;
+        top: -60px !important;
+    }
+    .projets:hover .description-on{
+        visibility: visible !important;
+        top: 40px !important;
+    }
+    #projet-div{
+        border-radius: 5px !important;
+    }
+
+    #containers{
+        left: 3px ;
+        top: -670px ;
+    }
+    .fade-in{
+        top: 0px !important;
+    }
+    #about{
+        border-radius: 5px !important;
+    }
+    #skill{
+        border-radius: 5px !important;
+    }
+    #contact{
+        border-radius: 5px !important;
+    }
 }
