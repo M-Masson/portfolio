@@ -81,6 +81,7 @@
 .projets:hover .description{
     visibility: visible;
     transition: 0.5s;
+    transform: translateY(50px);
 }
 .projets:hover .projet-img-on img{
     scale: 1.4;
@@ -129,6 +130,7 @@
     max-width: 300px;
     font-size: 14px;
     text-align: center;
+    top: 120px;
 }
 
 #tags-all{
@@ -158,7 +160,5 @@
     .description{
         top: 120px;
     }
-    .projets:hover .description{
-        transform: translateY(50px);
-    }
+    
 }

@@ -23,32 +23,29 @@ body{
     }
     #projects-all{
         gap: 10px !important;
+        flex-direction: column !important;
+        align-items: center !important;
     }
     .projets{
-        width: calc(342px / 1.6) !important;
-        height: calc(339px / 1.6) !important;
         padding-top: 10px !important
     }
     .projets:hover .projet-img-on{
-        transform: translateY(-30px) !important;
+        transform: translateY(-60px) !important;
     }
     .projets:hover .description{
-        transform: translateY(40px) !important;
+        transform: translateY(135px) !important;
         text-align: center ;
         font-size: 14px;
         padding: 0 5px !important;
     }
+    .title-on{
+        text-align: center;
+    }
     .description{
-        top: 60px !important;
+        top: 40px !important;
     }
-    .projet-img-on{
-        width: calc(291px / 1.5) !important;
-        height: calc(231px / 1.5) !important;
-    }
-    .projet-img-off{
-        width: calc(291px / 1.5) !important;
-        height: calc(231px / 1.5) !important;
-    }
+    
+    
     .side-div{
         width: 400px !important;
         padding-top: 40px !important;
@@ -147,17 +144,46 @@ body{
     }
     
 }
-@media (max-width: 720px) {
+@media (max-width: 850px) {
+    body{
+        height: 160vh !important;
+        align-items: start !important;
+        padding-top: 20px !important;
+    }
     #home{
         flex-direction: column;
     }
     #profil{
-        width: 752px !important;
-        height: 990px !important;
-        justify-content: space-between;
+        width: 476px !important;
+        height: 670px !important;
 
     }
     #profil1{
         height: 850px !important;
     }
+    #navbar{
+        flex-direction: row !important;
+        position: fixed;
+        bottom: 10px;
+        width: 90% !important;
+        height: 70px !important; 
+        background-color: rgba(32, 64, 61, 0.7) !important;
+        backdrop-filter: blur(16px) !important;
+        align-self: center;
+    }
+    .navigation-on{
+        width: auto !important;
+        height: 100% !important;
+    }
+    .navigation-off{
+        width: auto !important;
+        height: 100% !important;
+    }
+    .nav-on img{
+        width: calc(28px * 1.5) !important;
+    }
+    .nav-off img{
+        width: calc(28px * 1.5) !important;
+    }
+    
 }

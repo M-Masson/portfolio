@@ -36,7 +36,7 @@ function Nav() {
                         key={index}
                         to={`/${item.title}`}
                         id={item.title}
-                        className={`nav-${isActive ? 'on' : 'off'}`}
+                        className={`navigation-${isActive ? 'on' : 'off'}`}
                     >
                         <div id={`nav-${item.title}`} className={`nav-${isActive ? 'on' : 'off'}`}>
                         <img src={isActive ? item.image2 : item.image1} alt={`image-${item.title}`}/>
