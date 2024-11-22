@@ -7,7 +7,7 @@ import '../info/info.css'
 import Contact from "./contact/contact";
 
 const navigation = [
-   {title: About, path2: "portfolio/", path:"abouts"},
+   {title: About, path: "portfolio/", path2:"abouts"},
    {title: Skills, path: "skills"},
    {title: Projects, path: "projects"},
    {title: Contact, path: "contacts"}
