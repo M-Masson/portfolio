@@ -7,7 +7,7 @@ import { useLocation } from 'react-router-dom'
 
 function Contact (){
     const location = useLocation();
-    const isActive = location.pathname === '/contacts';
+    const isActive = location.pathname === '/portfolio/contacts';
     return(
         <div id="contact" className='side-div'>
             <div id="contact-page">

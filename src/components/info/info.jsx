@@ -18,7 +18,7 @@ function Infos(){
     return(
             <div id="container-1">
                 {navigation.map((item, index)=>{
-                    const isActive = location.pathname === `/${item.path}` || (item.path2 ?location.pathname === `/${item.path2}` : false)
+                    const isActive = location.pathname === `/portfolio/${item.path}` || (item.path2 ?location.pathname === `/portfolio/${item.path2}` : false)
                     return(
                         <div id="containers" key={index} className={isActive ? "fade-in" : "fade-out"}>
                             
