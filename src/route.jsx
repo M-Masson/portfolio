@@ -8,7 +8,7 @@ function RoutesApp (){
     <Router>
             <Routes>
                 <Route path="/portfolio/" element={<Home />}/>
-                <Route path="/portfolio/#portfolio/" element={<Home />}/>
+                <Route path="/portfolio/#portfolio" element={<Home />}/>
                 <Route path="/portfolio/#abouts" element={<Home />}/>
                 <Route path="/portfolio/#skills" element={<Home />}/>
                 <Route path="/portfolio/#projects" element={<Home />}/>
