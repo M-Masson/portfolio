@@ -8,11 +8,11 @@ function RoutesApp (){
     return(
     <Router>
             <Routes>
-                <Route path={`${path}/`} element={<Home />}/>
-                <Route path={`${path}/abouts`} element={<Home />}/>
-                <Route path={`${path}/skills`} element={<Home />}/>
-                <Route path={`${path}/projects`} element={<Home />}/>
-                <Route path={`${path}/contacts`} element={<Home />}/>
+                <Route path={`/`} element={<Home />}/>
+                <Route path={`/abouts`} element={<Home />}/>
+                <Route path={`/skills`} element={<Home />}/>
+                <Route path={`/projects`} element={<Home />}/>
+                <Route path={`/contacts`} element={<Home />}/>
                 <Route path ="*" element={<Error/>}/>
             </Routes>
     </Router>
