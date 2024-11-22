@@ -18,7 +18,7 @@ import imageContacts2 from '../../assets/svg/contact/address-card-solid.svg'
 
 function Nav() {
     const location = useLocation()
-    const isPathAbout = location.pathname === '/abouts'
+    const isPathAbout = location.pathname === '/portfolio/#abouts'
 
     const nav = [
         {title: isPathAbout ? "abouts" : "portfolio/", image1: imageAbout1, image2: imageAbout2, text: "À propos"},
@@ -34,7 +34,7 @@ function Nav() {
                 return (
                     <Link
                         key={index}
-                        to={`/${item.title}`}
+                        to={`/#${item.title}`}
                         id={item.title}
                         className={`navigation-${isActive ? 'on' : 'off'}`}
                     >
