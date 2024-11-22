@@ -34,7 +34,7 @@ function Nav() {
                 return (
                     <Link
                         key={index}
-                        to={`/${item.title}`}
+                        to={`/#${item.title}`}
                         id={item.title}
                         className={`navigation-${isActive ? 'on' : 'off'}`}
                     >

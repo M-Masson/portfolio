@@ -35,7 +35,7 @@ const project = [
 
 function Projects(){
     const location = useLocation();
-    const isActive = location.pathname === '/projects'
+    const isActive = location.pathname === '/#projects'
     return(
         <div id='projet-div'>
             <h2 id='projet-h2'>Projets</h2>
