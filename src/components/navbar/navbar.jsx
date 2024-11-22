@@ -30,11 +30,11 @@ function Nav() {
     return (
         <div id="navbar">
             {nav.map((item, index) => {
-                const isActive = location.pathname === `/${item.title}`
+                const isActive = location.pathname === `/portfolio/#${item.title}`
                 return (
                     <Link
                         key={index}
-                        to={`/#${item.title}`}
+                        to={`/portfolio/#${item.title}`}
                         id={item.title}
                         className={`navigation-${isActive ? 'on' : 'off'}`}
                     >
