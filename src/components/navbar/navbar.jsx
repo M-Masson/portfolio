@@ -11,17 +11,11 @@ import imageProjects2 from '../../assets/svg/projects/laptop-code-solid.svg'
 import imageContacts1 from '../../assets/svg/contact/address-card-regular.svg'
 import imageContacts2 from '../../assets/svg/contact/address-card-solid.svg'
 
-
-
-
-
-
 function Nav() {
     const location = useLocation()
-    const isPathAbout = location.pathname === '/portfolio/' & location.hash=== "#abouts"
 
     const nav = [
-        {title: isPathAbout ? "abouts" : "portfolio", image1: imageAbout1, image2: imageAbout2, text: "À propos"},
+        {title: "portfolio", image1: imageAbout1, image2: imageAbout2, text: "À propos"},
         {title: "skills", image1: imageSkills1, image2: imageSkills2, text: "Compétences"},
         {title: "projects", image1:imageProjetcts1 ,image2: imageProjects2, text: "Projets"},
         {title: "contacts", image1: imageContacts1, image2: imageContacts2, text: "Contact"}
@@ -30,7 +24,7 @@ function Nav() {
     return (
         <div id="navbar">
             {nav.map((item, index) => {
-                const isActive = location.pathname === `/portfolio/` & location.hash === `#${item.title}`
+                const isActive =(location.pathname === `/portfolio/` && location.hash === '' && item.title === "portfolio") || location.hash === `#${item.title}`;
                 return (
                     <Link
                         key={index}
