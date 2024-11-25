@@ -266,3 +266,89 @@ body{
         border-radius: 5px !important;
     }
 }
+@media (max-width: 480px){
+    body{
+        height: 185vh !important;
+    }
+    #home{
+        justify-content: center !important;
+        align-items: center !important;
+    }
+    #profil{
+        width: calc(476px / 1.3) !important;
+
+    }
+    #container-1{
+        width: calc(470px / 1.3) !important;
+    }
+    .side-div{
+        width: auto !important;
+    }
+    #navbar{
+        bottom: 10px !important;
+        width: 70% !important;
+    }
+    #sidebars{
+        gap: 0 !important;
+    }
+    .hard-skills-sidebar{
+        width: calc(255px / 2) !important;
+    }
+    .hard-skills p{
+        margin: 0 !important;  
+    }
+    .hard-skills{
+        gap: 0 !important;
+    }
+    #skill{
+        gap: 30px !important;
+    }
+    #skill1{
+        height: auto !important;
+    }
+    #skill2{
+        height: auto !important;
+        padding-bottom: 15px !important;
+    }
+    #icons{
+        flex-wrap: wrap !important;
+        justify-content: center !important;
+    }
+    #projet-div{
+        width: auto !important;
+    }
+
+   .projets{
+        width: auto !important;
+   }
+   .projet-img-off{
+        position: relative !important;
+        scale: 0.7 !important;
+        top: -60px !important;
+    }
+    .title-off{
+        position: relative !important;
+        top: 30px !important;
+    }
+    .description-off {
+        visibility: visible !important;
+        top: 170px !important;
+    }
+    .fade-out{
+        width: 100% !important ;
+    }
+    #contact-app{
+        height: 113px !important;
+    }
+    #contact-join{
+        height: 113px !important;
+    }
+    .contact-elements{
+        height: 113px !important;
+        border-radius: 10px !important;
+    }
+    .phone-img-off{
+        top: 34px !important;
+    }
+   }
+
