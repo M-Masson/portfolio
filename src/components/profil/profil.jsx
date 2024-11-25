@@ -17,7 +17,7 @@ function Profil(){
                     <a id='btn-cv' href= {cv} download="cv-morgan-masson">
                         CV
                     </a>
-                    <Link id='btn-contact' to='/contacts'>
+                    <Link id='btn-contact' to='/portfolio/#contacts'>
                         Contact
                     </Link>
                 </div>
