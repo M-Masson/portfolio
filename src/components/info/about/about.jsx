@@ -9,13 +9,14 @@ function About(){
                     <div>
                         <h3>Biographie</h3>
                         <p>
-                            Actuellement en formation de développeur web avec l’organisme OpenClassrooms,
-                            je me spécialise dans la création de sites et d’applications web. <br /> <br />
-                            Diplômé d’un baccalauréat général avec une spécialisation en Mathématiques 
-                            et Sciences de l’Ingénieur, j’ai toujours été attiré par la résolution de 
-                            problèmes techniques et logiques. <br /> <br /> Passionné par l’informatique et les jeux vidéo,
-                            je puise mon inspiration dans ces domaines pour concevoir des projets innovants 
-                            et immersifs.
+                        Diplômé d’un baccalauréat général avec une spécialisation 
+                        en Mathématiques et Sciences de l’Ingénieur, j’ai toujours
+                        été attiré par la résolution de problèmes techniques et logiques. <br /> <br />
+                        Titulaire d'un titre RNCP niveau 5 en développement informatique,
+                        je suis à la recherche d'une alternance en tant que développeur front-end. <br /> <br />
+                        Sérieux, curieux et à l'écoute, 
+                        je souhaiterai intégrer une entreprise dynamique 
+                        pour me former et que j'accompagnerai dans son développement.
                         </p>
                     </div>
                     <div>
