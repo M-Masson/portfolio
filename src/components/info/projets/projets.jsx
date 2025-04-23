@@ -27,7 +27,7 @@ const tagsP4 = [
 ]
 
 const project = [
-    {title: "Agence de voyage : Booki", description: "Dans ce projet, j'ai développé la page d'accueil d'une agence de voyage. La mise en place du responsive a été un défi, mais j'ai su adapter mon raisonnement pour rendre le site compatible avec tous les appareils.", tags: tagsP1, img: imgP1, path:"https://github.com/M-Masson/projet-booki"},
+    {title: "Agence de voyage : Booki", description: "Dans ce projet, j'ai développé la page d'accueil d'une agence de voyage. La mise en place du responsive a été un défi, mais j'ai su adapter mon raisonnement pour rendre le site compatible avec tous les appareils.", tags: tagsP1, img: imgP1, path:"https://m-masson.github.io/projet-booki/"},
     {title: "Portfolio d'une architecte", description: "Au cours de ce projet, j'ai développé dynamiquement le portfolio d'une architecte. Le plus grand challenge à été la gestion du Backend, grâce aux requêtes fetch j’ai compris comment interagir avec ce dernier.", tags: tagsP2, img: imgP2, path:"https://github.com/M-Masson/projet-architecte"},
     {title: "Location immobilière : Kasa", description: "Au cours de ce projet, j'ai développé une application web de location immobilière. J’ai également découvert et pris en main le React, que j’ai immédiatement apprécié.", tags: tagsP3, img: imgP3, path:"https://github.com/M-Masson/projet-kasa"},
     {title: "Site de notation de livre", description: "Pendant ce projet, j’ai développé le Backend d’un site de notation de livre. La plus grande difficulté était la compréhension et l’utilisation de NodeJS.", tags: tagsP4, img: imgP4, path:"https://github.com/M-Masson/projet-vieux-grimoire"}
