@@ -157,19 +157,31 @@
 }
 
 #tags-JavaScript{
-    color: rgba(255, 217, 0, 0.911);
+    color: #F7DF1E;
 }
 #tags-Css{
-    color: rgb(0, 110, 255);
+    color: #663399;
 }
 #tags-Html{
-    color: rgb(255, 102, 0);
+    color: #E34F26;
 }
 #tags-NodeJS{
-    color: rgb(0, 255, 0);
+    color: #339933;
 }
 #tags-Sass{
-    color: rgb(255, 0, 234);
+    color: #CC6699;
+}
+#tags-Angular{
+    color: #DD0031;
+}
+#tags-Java{
+    color: #ED8B00;
+}
+#tags-TypeScript{
+    color: #3178C6;
+}
+#tags-React{
+    color: #61DAFB;
 }
 
 @media (min-width: 1440px){

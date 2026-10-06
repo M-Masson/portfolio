@@ -43,12 +43,10 @@
 
 #skill2{
     width: 100%;
-    height: 174px;
     display: flex;
     flex-direction: column;
     align-items: start;
     justify-content: start;
-    
 }
 
 #sidebars{
@@ -86,19 +84,34 @@
     border: none !important;
     gap: 42px;
     width: 100%;
-    height: 50%;
+    overflow: hidden;
+    overflow-x: scroll;
 }
+
+#icons::-webkit-scrollbar {
+    height: 4px;
+}
+
+#icons::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+#icons::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 10px;
+}
+
 #icons div{
     background-color: rgba(232, 232, 232, 0);
     border: none !important;
 }
 .soft-skills{
-    
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 20%;
     justify-content: end;
+    margin: 0 8px; 
 }
 .soft-skills p{
     margin: 0;
@@ -108,9 +121,8 @@
     width: 55px;
     height: 55px;
 }
-#img-1{
+#img-2{
     position: relative;
     scale: 1.5;
     top: 10px;
 }
-

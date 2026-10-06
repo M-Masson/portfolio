@@ -9,13 +9,14 @@ function About(){
                     <div>
                         <h3>Biographie</h3>
                         <p>
-                        Diplômé d’un baccalauréat général avec une spécialisation 
-                        en Mathématiques et Sciences de l’Ingénieur, j’ai toujours
-                        été attiré par la résolution de problèmes techniques et logiques. <br /> <br />
-                        Diplômé en développement Web, je suis à la recherche d'une alternance pour une formation en tant que Concepteur Développeur d’Application. <br /> <br />
-                        Sérieux, curieux et à l'écoute, 
-                        je souhaiterai intégrer une entreprise dynamique 
-                        pour me former et que j'accompagnerai dans son développement.
+                        Diplômé en développement web et après une expérience en tant que concepteur développeur d’application en alternance,
+                        je suis aujourd’hui développeur Full Stack.
+                        <br/><br/>
+
+                        Issu d’un parcours scientifique en Mathématiques et Sciences de l’Ingénieur, j’aime résoudre des problèmes et concevoir des solutions techniques.
+                        <br/><br/>
+
+                        Curieux, rigoureux et à l’écoute, je recherche un poste de Développeur Full Stack pour continuer à progresser et contribuer aux projets de l’entreprise.
                         </p>
                     </div>
                     <div>

@@ -11,23 +11,35 @@ import logoFigma from '../../../assets/svg/skills/logo/figma.svg'
 import logoNotion from '../../../assets/svg/skills/logo/notion.svg'
 import logoPostman from '../../../assets/svg/skills/logo/postman.svg'
 import logoVsCode from '../../../assets/svg/skills/logo/vscode.svg'
+import logoGit from '../../../assets/svg/skills/logo/git.svg'
+import logoGitlab from '../../../assets/svg/skills/logo/gitlab.svg'
+import logoDocker from '../../../assets/svg/skills/logo/docker.svg'
+import logoBootstrap from '../../../assets/svg/skills/logo/bootstrap.svg'
+import logoSwagger from '../../../assets/svg/skills/logo/swagger.svg'
+import logoIntellij from '../../../assets/svg/skills/logo/intellij.svg'
 
 const softSkills = [
     {title: "VS Code", img: logoVsCode},
+    {title: "IntelliJ", img: logoIntellij},
     {title: "MongoDB", img: logoMongodb},
+    {title: "Postman", img: logoPostman},
+    {title: "Swagger", img: logoSwagger},
+    {title: "Git", img: logoGit},
     {title: "Github", img: logoGithub},
+    {title: "Gitlab", img: logoGitlab},
+    {title: "Bootstrap", img: logoBootstrap},
+    {title: "Docker", img: logoDocker},
     {title: "Figma", img: logoFigma},
     {title: "Notion", img: logoNotion},
-    {title: "Postman", img: logoPostman}
 ]
 
 const hardSkills =[
-    {title: "Html", rating: sideBar1},
-    {title: "Css", rating: sideBar1},
-    {title: "JavaScript", rating: sideBar2},
-    {title: "React", rating:sideBar3},
-    {title: "Sass", rating:sideBar2},
-    {title: "NodeJs", rating:sideBar4}
+    {title: "JavaScript", rating: sideBar1},
+    {title: "TypeScript", rating: sideBar2},
+    {title: "React", rating:sideBar1},
+    {title: "Angular", rating:sideBar2},
+    {title: "Java", rating:sideBar3},
+    {title: "Vue.Js", rating:sideBar4}
 ]
 
 function Skills(){
