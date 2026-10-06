@@ -1,20 +1,28 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.d153271e.css",
-    "main.js": "/portfolio/static/js/main.b56e6fca.js",
+    "main.css": "/portfolio/static/css/main.3a86061a.css",
+    "main.js": "/portfolio/static/js/main.d5989cd9.js",
     "static/media/projet-photographe.png": "/portfolio/static/media/projet-photographe.af6f15c88e40b913134d.png",
     "static/media/photo-profil.jpg": "/portfolio/static/media/photo-profil.a20445e2e0a0905f03a7.jpg",
     "static/media/projet-kasa.png": "/portfolio/static/media/projet-kasa.8550e4654c347681f4de.png",
     "static/media/projet-vieux-grimoire.png": "/portfolio/static/media/projet-vieux-grimoire.caf9d6094c7670af9630.png",
     "static/media/projet-booki.png": "/portfolio/static/media/projet-booki.5e34fee80ef38fe24419.png",
+    "static/media/projet-danews.png": "/portfolio/static/media/projet-danews.6ee6ae88c1a24e24825c.png",
+    "static/media/projet-lombrary.png": "/portfolio/static/media/projet-lombrary.2cd3efe5a0e5b601964f.png",
     "static/media/RobotoMono-VariableFont_wght.ttf": "/portfolio/static/media/RobotoMono-VariableFont_wght.e14e25b7c497634efdfe.ttf",
     "static/media/vscode.svg": "/portfolio/static/media/vscode.35085f140379df5b8c66d7fdf323681d.svg",
+    "static/media/cv-morgan_masson.pdf": "/portfolio/static/media/cv-morgan_masson.e8f36fa4d15ed99cee17.pdf",
     "static/media/PPNeueMachina-PlainRegular.otf": "/portfolio/static/media/PPNeueMachina-PlainRegular.c1fe9e8fedaaf2eed971.otf",
-    "static/media/cv-morgan_masson.pdf": "/portfolio/static/media/cv-morgan_masson.86e7d2074e196e6958c9.pdf",
     "static/media/postman.svg": "/portfolio/static/media/postman.dfc3fa336e2c14daee05b2b3abfeb3f0.svg",
+    "static/media/swagger.svg": "/portfolio/static/media/swagger.e507d3403b4aa835b8b74e22bf43de94.svg",
     "static/media/notion.svg": "/portfolio/static/media/notion.f4441ce82eae17772868da0222284ba7.svg",
+    "static/media/intellij.svg": "/portfolio/static/media/intellij.5d91ad39cf690197c3ff0f078518a1db.svg",
     "static/media/github.svg": "/portfolio/static/media/github.1ad93607e1211432059c4e4169f2a11f.svg",
+    "static/media/docker.svg": "/portfolio/static/media/docker.0f6f30114e950e6c1ae296e65fc2ebf2.svg",
     "static/media/figma.svg": "/portfolio/static/media/figma.4aa9b2c2215f7805ad3f0bb445c8bd54.svg",
+    "static/media/bootstrap.svg": "/portfolio/static/media/bootstrap.11cbbac979d914f474d378d6828c2a8c.svg",
+    "static/media/gitlab.svg": "/portfolio/static/media/gitlab.3612a067013a86b0491e2861718554ec.svg",
+    "static/media/git.svg": "/portfolio/static/media/git.a03da9cb9b99dfbf0e4661a7ce8bd22c.svg",
     "static/media/address-card-regular.svg": "/portfolio/static/media/address-card-regular.8b4a4a668b01b15fdc2e9a03453cbbb1.svg",
     "static/media/address-card-solid.svg": "/portfolio/static/media/address-card-solid.27a1f86dce237f21ea263c53d9b03479.svg",
     "static/media/mongodb.svg": "/portfolio/static/media/mongodb.1b332c27a1fb725d74a9a050b50795be.svg",
@@ -32,11 +40,11 @@
     "static/media/sidebar-2.svg": "/portfolio/static/media/sidebar-2.29e26dad646fe8fb677e87d32d67306b.svg",
     "static/media/sidebar-3.svg": "/portfolio/static/media/sidebar-3.8a2eef84c3fcb54da2558740dcaeca37.svg",
     "static/media/sidebar-4.svg": "/portfolio/static/media/sidebar-4.9b1aecbf663e243a7b91fa1df487cad2.svg",
-    "main.d153271e.css.map": "/portfolio/static/css/main.d153271e.css.map",
-    "main.b56e6fca.js.map": "/portfolio/static/js/main.b56e6fca.js.map"
+    "main.3a86061a.css.map": "/portfolio/static/css/main.3a86061a.css.map",
+    "main.d5989cd9.js.map": "/portfolio/static/js/main.d5989cd9.js.map"
   },
   "entrypoints": [
-    "static/css/main.d153271e.css",
-    "static/js/main.b56e6fca.js"
+    "static/css/main.3a86061a.css",
+    "static/js/main.d5989cd9.js"
   ]
 }
